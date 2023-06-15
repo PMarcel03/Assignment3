@@ -52,5 +52,5 @@
         <input type="text" class="form-control" name="Image" placeholder="Image">
         <br><br>
         <hr width="75%">
-        <input class="btn btn-light" type="submit" name="submit" value="Submit Page Data">
+        <input class="btn btn-light" type="submit" name="submit" value="Submit page data">
       </form>
