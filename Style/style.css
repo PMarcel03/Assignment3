@@ -1,0 +1,65 @@
+/* remove browser default styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background-color: #2f2f2f;
+
+}
+h1
+{
+font-family: 'Inconsolata', monospace;
+background-color:#3b3b3b;
+color: #ffffff;
+text-align: center;
+}
+h2,h3,h4
+{
+    font-family: 'Inconsolata', monospace;
+    color: #ffffff;
+    text-align: center;
+}
+label
+{
+font-family: 'Inconsolata', monospace;
+background-color:#3b3b3b;
+color: #ffffff;
+text-align: center;
+}
+p,li
+{
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Centers the image */
+.img-fluid
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a
+{
+color: rgb(172, 1, 1);
+}
+/* Changes the Hamburger Button Colour */
+.navbar-toggler
+{background-color: #808080}
+.button
+{
+    background-color: #600c0c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
