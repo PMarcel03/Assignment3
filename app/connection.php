@@ -4,6 +4,9 @@ $user = "a30074024_Marcel123";
 $pw ="Toiohomai1234";
 $db = "a30074024_SCP";
 
+//Error Management
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 //Database connection object (address, user, password, db)
 $connection = new mysqli('localhost', $user, $pw, $db);
@@ -47,9 +50,9 @@ else
 }
 
 // Update
-if($_POST['update'])
+if(isset($_POST['update']))
 {
-    // save post values as variables
+    //save post values as variables
     $id = $_POST['id'];
     $Subject = $_POST['Subject'];
     $Class = $_POST['Class'];
