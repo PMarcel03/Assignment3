@@ -90,13 +90,13 @@ $del = "delete from SCP where id=$id";
 //Run SQL command
 if($connection->query($del) === TRUE)
 {
-    echo"<p>Record was deleted.<a href='../index.php'>Return to index page.</a></p>";
+    echo"<h1>Record was deleted.<a href='../index.php'>Return to index page.</a></h1>";
 
 }
 else
 {
     echo"
-    <p>There was an error deleting this record.</p>
+    <h1>There was an error deleting this record.</h1>
     <p><a href='../index.php'></a>Back to index page.</p>
     ";
 
