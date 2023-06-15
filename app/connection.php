@@ -54,11 +54,12 @@ if(isset($_POST['update']))
 {
     //save post values as variables
     $id = $_POST['id'];
-    $Subject = $_POST['Subject'];
-    $Class = $_POST['Class'];
-    $Procedures = $_POST['Procedures'];
-    $Description = $_POST['Description'];
-    $Image = $_POST['Image'];
+    $Subject = $connection -> real_escape_string($_POST['Subject']);
+    $Class = $connection -> real_escape_string($_POST['Class']);
+    $Procedures = $connection -> real_escape_string($_POST['Procedures']);
+    $Description = $connection -> real_escape_string($_POST['Description']);
+    $Image = $connection -> real_escape_string($_POST['Image']);
+    
     
     // Update SQL command
     $update = "update SCP set Subject='$Subject', Class='$Class', Procedures='$Procedures', Description='$Description', Image='$Image' where id='$id'";
